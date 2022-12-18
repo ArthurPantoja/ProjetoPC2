@@ -1,63 +1,53 @@
 body {
     font-family: Helvetica;
-    text-align: center;
     color: rgb(8, 8, 8);
-    background-color:rgb(199, 168, 158);
+    background-color:rgb(94, 91, 91);
     padding: 0;
     margin: 0;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-bottom: 10px solid rgb(0, 0, 0);
 }
-
 nav ul{
     display: flex;
     align-items: center;
     list-style: none;
 }
-
 ul li {
     margin-right: 22px;
-
 }
-
 ul li a{
     color: rgb(21, 206, 61);
 }
-
 h1{
     text-align: center;
     font-size: 20px;
     color: aliceblue;
 }
-
-
 footer {
     padding: 20px;
     border-top: 1px solid rgb(2, 2, 2);
     margin-top: 32px;
-
 }
 p{
-    text-align: center;
+
+    margin: 15px;
     color: aliceblue;
 }
 strong{
-    
     color: aliceblue;
 }
 #ist{
     color: black;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 #na{
-    background: rgb(128, 91, 91);
+    background: rgb(116, 43, 43);
 }
 #re{
     color: aliceblue;
@@ -65,12 +55,9 @@ strong{
 #gr{
     background: rgb(212, 204, 204);
     margin: 100px;
-
 }
 #img{
-    text-align: left;
-    background: red;
-    
+    text-align: left;   
 }
 
 #fo{
@@ -81,5 +68,8 @@ strong{
     text-align: center;
     background: rgb(107, 90, 90);
     font-family: Helvetica;
+}
+#tr{
+    margin: 30px;
 }
 
