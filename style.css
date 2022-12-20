@@ -1,7 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Helvetica;
-    color: rgb(8, 8, 8);
-    background-color:rgb(94, 91, 91);
+    /* color: rgb(8, 8, 8); */
+    background-color:rgb(255, 253, 253);
     padding: 0;
     margin: 0;
 }
@@ -19,26 +22,23 @@ nav ul{
 ul li {
     margin-right: 22px;
 }
-ul li a{
-    color: rgb(21, 206, 61);
-}
+
 h1{
     text-align: center;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 footer {
-    padding: 20px;
-    border-top: 1px solid rgb(2, 2, 2);
+    /* padding: 20px; */
+    /* border-top: 1px solid rgb(2, 2, 2); */
     margin-top: 32px;
 }
 p{
-
     margin: 15px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 strong{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 #ist{
     color: black;
@@ -46,16 +46,24 @@ strong{
     margin-left: 200px;
 }
 
-#na{
-    background: rgb(116, 43, 43);
+#na {
+    background: rgb(128, 123, 123);
+    display: flex; align-items: center;
+}
+.menu{
+    font-size: 30px;
+    color: rgb(119, 125, 131);
+
+    display: none;
 }
 #re{
-    color: aliceblue;
+    color: rgb(9, 10, 10);
 }
 #gr{
-    background: rgb(212, 204, 204);
-    margin: 100px;
+    background: rgb(112, 105, 105);
+    
 }
+
 #img{
     text-align: left;   
 }
@@ -72,4 +80,8 @@ strong{
 #tr{
     margin: 30px;
 }
+#linha{
+    display: flex;text-align: center;
+}
+
 
